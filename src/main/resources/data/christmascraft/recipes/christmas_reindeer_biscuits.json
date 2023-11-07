@@ -1,0 +1,33 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"ESE",
+		"WWW"
+	],
+	
+	"key":
+	{
+		"E":
+		{
+			"item": "christmascraft:chocolate_bar"
+		},
+		
+		"W":
+		{
+			"item": "minecraft:wheat"
+		},
+		
+		"S":
+		{
+			"item": "minecraft:sweet_berries"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:christmas_reindeer_biscuits",
+		"count": 8
+	}
+}

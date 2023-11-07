@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "christmascraft:snowy_garland_lightless"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "leaves": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "christmascraft:snowy_leaves"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "leaves"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "christmascraft:snowy_garland_lightless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

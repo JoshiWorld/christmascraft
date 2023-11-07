@@ -1,0 +1,34 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"CG",
+		"SG",
+		"SG"
+	],
+	
+	"key":
+	{
+		"G":
+		{
+			"item": "christmascraft:gingerbread"
+		},
+		
+		"C":
+		{
+			"item": "minecraft:carrot"
+		},
+		
+		"S":
+		{
+			"item": "minecraft:sugar"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:biscuits_snowman",
+		"count": 8
+	}
+}

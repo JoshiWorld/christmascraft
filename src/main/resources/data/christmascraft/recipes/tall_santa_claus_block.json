@@ -1,0 +1,38 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"WRP",
+		"RRR",
+		"B B"
+	],
+	
+	"key":
+	{
+		"W":
+		{
+			"item": "minecraft:white_wool"
+		},
+		
+		"R":
+		{
+			"item": "minecraft:red_wool"
+		},
+		
+		"P":
+		{
+			"item": "minecraft:pink_wool"
+		},
+		
+		"B":
+		{
+			"item": "minecraft:black_wool"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:tall_santa_claus_block"
+	}
+}

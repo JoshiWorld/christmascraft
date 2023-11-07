@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "christmascraft:block/garland_round_lightless",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "christmascraft:block/garland_round_lightless"
+    },
+    "facing=south": {
+      "model": "christmascraft:block/garland_round_lightless",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "christmascraft:block/garland_round_lightless",
+      "y": 270
+    }
+  }
+}

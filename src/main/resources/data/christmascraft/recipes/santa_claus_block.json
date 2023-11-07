@@ -1,0 +1,22 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"S"
+	],
+	
+	"key":
+	{
+		"S":
+		{
+			"item": "christmascraft:tall_santa_claus_block"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:santa_claus_block",
+		"count": 4
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"GGG"
+	],
+	
+	"key":
+	{
+		"G":
+		{
+			"item": "christmascraft:snowy_christmas_leaves"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:snowy_garland",
+		"count": 6
+	}
+}

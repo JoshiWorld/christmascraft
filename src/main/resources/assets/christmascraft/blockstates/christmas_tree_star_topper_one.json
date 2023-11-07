@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "christmascraft:block/christmas_tree_star_topper_one"
+    },
+    "facing=north": {
+      "model": "christmascraft:block/christmas_tree_star_topper_one"
+    },
+    "facing=south": {
+      "model": "christmascraft:block/christmas_tree_star_topper_one"
+    },
+    "facing=west": {
+      "model": "christmascraft:block/christmas_tree_star_topper_one"
+    }
+  }
+}

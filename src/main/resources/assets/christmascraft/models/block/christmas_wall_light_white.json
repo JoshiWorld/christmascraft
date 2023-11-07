@@ -1,0 +1,7 @@
+{
+    "parent": "christmascraft:block/template/light_block_wall",
+    "textures": {
+		"glass": "minecraft:block/white_stained_glass",
+		"bulb": "christmascraft:block/plastic_block_white"
+    }
+}

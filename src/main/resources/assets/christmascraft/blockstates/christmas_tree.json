@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "christmascraft:block/christmas_tree_lower"
+    },
+    "half=upper": {
+      "model": "christmascraft:block/christmas_tree_upper"
+    }
+  }
+}

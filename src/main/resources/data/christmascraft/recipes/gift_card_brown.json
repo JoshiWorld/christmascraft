@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "christmascraft:colored_gift_card",
+	"ingredients": [
+	{
+			"item": "minecraft:brown_dye"
+	},
+	{
+			"item": "minecraft:paper"
+	}
+	],
+	"result":
+	{
+		"item": "christmascraft:gift_card_brown"
+	}
+}

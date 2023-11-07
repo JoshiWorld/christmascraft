@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "facing=north,half=lower":  { "model": "christmascraft:block/candy_canes_tall_bottom" },
+        "facing=south,half=lower": { "model": "christmascraft:block/candy_canes_tall_bottom", "y": 180 },
+        "facing=west,half=lower":  { "model": "christmascraft:block/candy_canes_tall_bottom", "y": 270 },
+        "facing=east,half=lower": { "model": "christmascraft:block/candy_canes_tall_bottom", "y": 90 },
+        "facing=north,half=upper":  { "model": "christmascraft:block/candy_canes_tall_top" },
+        "facing=south,half=upper": { "model": "christmascraft:block/candy_canes_tall_top", "y": 180 },
+        "facing=west,half=upper":  { "model": "christmascraft:block/candy_canes_tall_top", "y": 270 },
+        "facing=east,half=upper": { "model": "christmascraft:block/candy_canes_tall_top", "y": 90 }
+    }
+}

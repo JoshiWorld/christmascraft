@@ -1,0 +1,22 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"S"
+	],
+	
+	"key":
+	{
+		"S":
+		{
+			"item": "christmascraft:gingerbread_block"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:gingerbread",
+		"count": 4
+	}
+}

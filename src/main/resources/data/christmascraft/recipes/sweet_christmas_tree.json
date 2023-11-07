@@ -1,0 +1,28 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" C ",
+		"CGC",
+		" G "
+	],
+	
+	"key":
+	{
+		"C":
+		{
+			"item": "christmascraft:chocolate_bar"
+		},
+		
+		"G":
+		{
+			"item": "christmascraft:gingerbread"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:sweet_christmas_tree"
+	}
+}

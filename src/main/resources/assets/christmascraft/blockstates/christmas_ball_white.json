@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "face=ceiling,facing=east": {
+      "model": "christmascraft:block/christmas_ball_white_ceiling",
+      "y": 90
+    },
+    "face=ceiling,facing=north": {
+      "model": "christmascraft:block/christmas_ball_white_ceiling"
+    },
+    "face=ceiling,facing=south": {
+      "model": "christmascraft:block/christmas_ball_white_ceiling",
+      "y": 180
+    },
+    "face=ceiling,facing=west": {
+      "model": "christmascraft:block/christmas_ball_white_ceiling",
+      "y": 270
+    },
+    "face=floor,facing=east": {
+      "model": "christmascraft:block/christmas_ball_white",
+      "y": 90
+    },
+    "face=floor,facing=north": {
+      "model": "christmascraft:block/christmas_ball_white"
+    },
+    "face=floor,facing=south": {
+      "model": "christmascraft:block/christmas_ball_white",
+      "y": 180
+    },
+    "face=floor,facing=west": {
+      "model": "christmascraft:block/christmas_ball_white",
+      "y": 270
+    },
+    "face=wall,facing=east": {
+      "model": "christmascraft:block/christmas_ball_white_wall",
+      "y": 90
+    },
+    "face=wall,facing=north": {
+      "model": "christmascraft:block/christmas_ball_white_wall"
+    },
+    "face=wall,facing=south": {
+      "model": "christmascraft:block/christmas_ball_white_wall",
+      "y": 180
+    },
+    "face=wall,facing=west": {
+      "model": "christmascraft:block/christmas_ball_white_wall",
+      "y": 270
+    }
+  }
+}

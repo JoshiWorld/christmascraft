@@ -1,0 +1,23 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"SS",
+		" S",
+		" S"
+	],
+	
+	"key":
+	{
+		"S":
+		{
+			"item": "christmascraft:sugar_block"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:candy_canes_tall"
+	}
+}

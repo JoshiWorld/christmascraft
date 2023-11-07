@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "christmascraft:block/little_snowman_yellow",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "christmascraft:block/little_snowman_yellow"
+    },
+    "facing=south": {
+      "model": "christmascraft:block/little_snowman_yellow",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "christmascraft:block/little_snowman_yellow",
+      "y": 270
+    }
+  }
+}

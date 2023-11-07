@@ -1,0 +1,22 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" B ",
+		"BBB"
+	],
+	
+	"key":
+	{
+		"B":
+		{
+			"item": "minecraft:black_wool"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:black_hat"
+	}
+}

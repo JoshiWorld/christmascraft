@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "christmascraft:plastic_blocks",
+	"ingredients": [
+	{
+			"item": "minecraft:light_gray_dye"
+	},
+	{
+			"item": "christmascraft:plastic_block_white"
+	},
+	{
+			"item": "christmascraft:plastic_block_white"
+	},
+	{
+			"item": "christmascraft:plastic_block_white"
+	},
+	{
+			"item": "christmascraft:plastic_block_white"
+	},
+	{
+			"item": "christmascraft:plastic_block_white"
+	},
+	{
+			"item": "christmascraft:plastic_block_white"
+	},
+	{
+			"item": "christmascraft:plastic_block_white"
+	},
+	{
+			"item": "christmascraft:plastic_block_white"
+	}
+	],
+	"result":
+	{
+		"item": "christmascraft:plastic_block_light_gray",
+		"count": 8
+	}
+}

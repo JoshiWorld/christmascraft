@@ -1,0 +1,6 @@
+{
+  "parent": "christmascraft:block/snowman_block",
+  "textures": {
+    "scarf": "minecraft:block/blue_wool"
+  }
+}

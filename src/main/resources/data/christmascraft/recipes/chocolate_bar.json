@@ -1,0 +1,22 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"WWW",
+		"WWW"
+	],
+	
+	"key":
+	{
+		"W":
+		{
+			"item": "minecraft:cocoa_beans"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:chocolate_bar"
+	}
+}

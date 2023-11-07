@@ -1,0 +1,28 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"WWW",
+		"RRR"
+	],
+	
+	"key":
+	{
+		"W":
+		{
+			"item": "minecraft:green_wool"
+		},
+		
+		"R":
+		{
+			"item": "minecraft:copper_ingot"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:wire",
+		"count": 16
+	}
+}

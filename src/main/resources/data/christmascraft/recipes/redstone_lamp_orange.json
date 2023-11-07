@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "christmascraft:colored_lamp",
+	"ingredients": [
+	{
+			"item": "minecraft:orange_dye"
+	},
+	{
+			"item": "minecraft:redstone_lamp"
+	}
+	],
+	"result":
+	{
+		"item": "christmascraft:redstone_lamp_orange"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"replace": false,
+	"values": [
+		"christmascraft:light_bulb",
+		"christmascraft:light_bulb_white",
+		"christmascraft:light_bulb_orange",
+		"christmascraft:light_bulb_magenta",
+		"christmascraft:light_bulb_light_blue",
+		"christmascraft:light_bulb_yellow",
+		"christmascraft:light_bulb_lime",
+		"christmascraft:light_bulb_pink",
+		"christmascraft:light_bulb_gray",
+		"christmascraft:light_bulb_light_gray",
+		"christmascraft:light_bulb_cyan",
+		"christmascraft:light_bulb_purple",
+		"christmascraft:light_bulb_blue",
+		"christmascraft:light_bulb_brown",
+		"christmascraft:light_bulb_green",
+		"christmascraft:light_bulb_red",
+		"christmascraft:light_bulb_black"
+	]
+}

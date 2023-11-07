@@ -1,0 +1,28 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	"group": "epiphany_stocking",
+	"pattern":
+	[
+		"WWW",
+		" CC",
+		"CC "
+	],
+	
+	"key":
+	{
+		"W":
+		{
+			"item": "minecraft:white_wool"
+		},
+		
+		"C":
+		{
+			"item": "minecraft:green_wool"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:epiphany_stocking_green"
+	}
+}

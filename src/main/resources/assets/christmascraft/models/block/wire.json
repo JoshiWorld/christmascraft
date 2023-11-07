@@ -1,0 +1,6 @@
+{
+    "parent": "christmascraft:block/template/wire",
+    "textures": {
+        "base": "christmascraft:block/greens"
+    }
+}

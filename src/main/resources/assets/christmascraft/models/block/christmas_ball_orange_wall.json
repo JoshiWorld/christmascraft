@@ -1,0 +1,8 @@
+{
+  "parent": "christmascraft:block/template/christmas_ball_wall_template",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "side": "christmascraft:block/plastic_block_orange",
+    "string": "christmascraft:block/plastic_block_yellow"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "christmascraft:item/christmas_tree_inventory",
+  "textures": {
+    "leaves": "minecraft:block/spruce_leaves"
+  }
+}

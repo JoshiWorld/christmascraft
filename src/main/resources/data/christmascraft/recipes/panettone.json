@@ -1,0 +1,39 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"BME",
+		"SWS",
+		"WWW"
+	],
+	
+	"key":
+	{
+		"S":
+		{
+			"item": "minecraft:sugar"
+		},
+		"E":
+		{
+			"item": "minecraft:egg"
+		},
+		"B":
+		{
+			"item": "minecraft:sweet_berries"
+		},
+		"W":
+		{
+			"item": "minecraft:wheat"
+		},
+		"M":
+		{
+			"item": "minecraft:milk_bucket"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:panettone"
+	}
+}

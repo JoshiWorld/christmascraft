@@ -1,0 +1,90 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "christmascraft:block/christmas_wall_light_white",
+        "y": 180
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "christmascraft:block/christmas_wall_light_white",
+        "y": 180
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false",
+		"up": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "christmascraft:block/christmas_wall_light_white",
+        "y": 270
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "christmascraft:block/christmas_wall_light_white",
+        "y": 270
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false",
+		"up": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "christmascraft:block/christmas_wall_light_white"
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "christmascraft:block/christmas_wall_light_white"
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false",
+		"up": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "christmascraft:block/christmas_wall_light_white",
+        "y": 90
+      },
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "christmascraft:block/christmas_wall_light_white",
+        "y": 90
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false",
+		"up": "false"
+      }
+    }
+  ]
+}

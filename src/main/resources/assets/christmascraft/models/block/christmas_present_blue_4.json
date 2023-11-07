@@ -1,0 +1,8 @@
+{
+  "parent": "christmascraft:block/template/presents/christmas_present_template_4",
+  "textures": {
+    "paper": "christmascraft:block/blue_christmas_gift",
+    "particle": "christmascraft:block/plastic_block_blue",
+    "string": "christmascraft:block/plastic_block_yellow"
+  }
+}

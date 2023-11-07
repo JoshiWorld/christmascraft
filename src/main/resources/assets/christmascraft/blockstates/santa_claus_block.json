@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "facing=north,face=wall": { "model": "christmascraft:block/santa_claus_block"},
+        "facing=south,face=wall":  { "model": "christmascraft:block/santa_claus_block", "y": 180},
+        "facing=west,face=wall": { "model": "christmascraft:block/santa_claus_block", "y": 270 },
+        "facing=east,face=wall":  { "model": "christmascraft:block/santa_claus_block", "y": 90 },
+		"facing=north,face=floor": { "model": "christmascraft:block/santa_claus_block_floor"},
+        "facing=south,face=floor":  { "model": "christmascraft:block/santa_claus_block_floor", "y": 180},
+        "facing=west,face=floor": { "model": "christmascraft:block/santa_claus_block_floor", "y": 270 },
+        "facing=east,face=floor":  { "model": "christmascraft:block/santa_claus_block_floor", "y": 90 },
+		"facing=north,face=ceiling": { "model": "christmascraft:block/santa_claus_block"},
+        "facing=south,face=ceiling":  { "model": "christmascraft:block/santa_claus_block", "y": 180},
+        "facing=west,face=ceiling": { "model": "christmascraft:block/santa_claus_block", "y": 270 },
+        "facing=east,face=ceiling":  { "model": "christmascraft:block/santa_claus_block", "y": 90 }
+    }
+}

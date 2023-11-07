@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "rotation=0": {
+      "model": "christmascraft:block/christmas_present_brown"
+    },
+    "rotation=1": {
+      "model": "christmascraft:block/christmas_present_brown_1"
+    },
+    "rotation=10": {
+      "model": "christmascraft:block/christmas_present_brown_10"
+    },
+    "rotation=11": {
+      "model": "christmascraft:block/christmas_present_brown_11"
+    },
+    "rotation=12": {
+      "model": "christmascraft:block/christmas_present_brown_12"
+    },
+    "rotation=13": {
+      "model": "christmascraft:block/christmas_present_brown_13"
+    },
+    "rotation=14": {
+      "model": "christmascraft:block/christmas_present_brown_14"
+    },
+    "rotation=15": {
+      "model": "christmascraft:block/christmas_present_brown_15"
+    },
+    "rotation=2": {
+      "model": "christmascraft:block/christmas_present_brown_2"
+    },
+    "rotation=3": {
+      "model": "christmascraft:block/christmas_present_brown_3"
+    },
+    "rotation=4": {
+      "model": "christmascraft:block/christmas_present_brown_4"
+    },
+    "rotation=5": {
+      "model": "christmascraft:block/christmas_present_brown_5"
+    },
+    "rotation=6": {
+      "model": "christmascraft:block/christmas_present_brown_6"
+    },
+    "rotation=7": {
+      "model": "christmascraft:block/christmas_present_brown_7"
+    },
+    "rotation=8": {
+      "model": "christmascraft:block/christmas_present_brown_8"
+    },
+    "rotation=9": {
+      "model": "christmascraft:block/christmas_present_brown_9"
+    }
+  }
+}

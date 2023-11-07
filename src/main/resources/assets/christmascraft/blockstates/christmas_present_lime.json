@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "rotation=0": {
+      "model": "christmascraft:block/christmas_present_lime"
+    },
+    "rotation=1": {
+      "model": "christmascraft:block/christmas_present_lime_1"
+    },
+    "rotation=10": {
+      "model": "christmascraft:block/christmas_present_lime_10"
+    },
+    "rotation=11": {
+      "model": "christmascraft:block/christmas_present_lime_11"
+    },
+    "rotation=12": {
+      "model": "christmascraft:block/christmas_present_lime_12"
+    },
+    "rotation=13": {
+      "model": "christmascraft:block/christmas_present_lime_13"
+    },
+    "rotation=14": {
+      "model": "christmascraft:block/christmas_present_lime_14"
+    },
+    "rotation=15": {
+      "model": "christmascraft:block/christmas_present_lime_15"
+    },
+    "rotation=2": {
+      "model": "christmascraft:block/christmas_present_lime_2"
+    },
+    "rotation=3": {
+      "model": "christmascraft:block/christmas_present_lime_3"
+    },
+    "rotation=4": {
+      "model": "christmascraft:block/christmas_present_lime_4"
+    },
+    "rotation=5": {
+      "model": "christmascraft:block/christmas_present_lime_5"
+    },
+    "rotation=6": {
+      "model": "christmascraft:block/christmas_present_lime_6"
+    },
+    "rotation=7": {
+      "model": "christmascraft:block/christmas_present_lime_7"
+    },
+    "rotation=8": {
+      "model": "christmascraft:block/christmas_present_lime_8"
+    },
+    "rotation=9": {
+      "model": "christmascraft:block/christmas_present_lime_9"
+    }
+  }
+}

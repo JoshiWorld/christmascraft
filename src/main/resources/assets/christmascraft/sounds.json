@@ -1,0 +1,23 @@
+{
+	"disc.marrychristmas": {
+		"category": "disc",
+		"subtitle": "marrychristmas",
+		"sounds": [
+			{
+				"name": "christmascraft:disc/marrychristmas",
+				"stream": true
+			}
+		]
+	},
+	
+	"disc.jinglebells": {
+		"category": "disc",
+		"subtitle": "jinglebells",
+		"sounds": [
+			{
+				"name": "christmascraft:disc/jinglebells",
+				"stream": true
+			}
+		]
+	}
+}

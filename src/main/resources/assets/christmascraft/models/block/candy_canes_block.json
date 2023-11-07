@@ -1,0 +1,89 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"0": "christmascraft:block/sugar_block",
+		"particle": "christmascraft:block/sugar_block"
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [6.5, 4, 15],
+			"to": [7.5, 10, 16],
+			"faces": {
+				"north": {"uv": [3, 8, 8, 13], "texture": "#0"},
+				"east": {"uv": [0, 0, 3, 7], "texture": "#0"},
+				"south": {"uv": [4, 8, 9, 13], "texture": "#0"},
+				"west": {"uv": [0, 0, 3, 7], "texture": "#0"},
+				"up": {"uv": [2, 0, 3, 1], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 0, 1, 1], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "R1",
+			"from": [7, 10, 15],
+			"to": [9, 11, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 5, 5], "texture": "#0"},
+				"east": {"uv": [2, 0, 3, 1], "texture": "#0"},
+				"south": {"uv": [3, 5, 9, 11], "texture": "#0"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#0"},
+				"up": {"uv": [3, 0, 5, 1], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [3, 0, 5, 1], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "R2",
+			"from": [8.8, 7, 15],
+			"to": [9.8, 10, 16],
+			"faces": {
+				"north": {"uv": [4, 5, 9, 10], "texture": "#0"},
+				"east": {"uv": [0, 0, 3, 8], "texture": "#0"},
+				"south": {"uv": [3, 6, 8, 11], "texture": "#0"},
+				"west": {"uv": [0, 0, 4, 5], "texture": "#0"},
+				"up": {"uv": [0, 0, 1, 1], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [3, 0, 4, 1], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [-3.75, 3.75, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 30, 0],
+			"translation": [-3.75, 4.5, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [-2.75, 4.75, 2.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -100, 0],
+			"translation": [7, 4.5, 2.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"translation": [0, 0.75, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"gui": {
+			"rotation": [15, -162, 0],
+			"translation": [2.75, -1.25, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"translation": [-0.25, 1, -8]
+		}
+	},
+	"groups": [
+		{
+			"name": "VoxelShapes",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2]
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "christmascraft:block/christmas_ceiling_light_pale_gray"
+      }
+    },
+    {
+      "apply": {
+        "model": "christmascraft:block/christmas_ceiling_light_pale_gray_side"
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "christmascraft:block/christmas_ceiling_light_pale_gray_side",
+        "y": 180
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "christmascraft:block/christmas_ceiling_light_pale_gray_side",
+        "y": 270
+      },
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "christmascraft:block/christmas_ceiling_light_pale_gray_side",
+        "y": 90
+      },
+      "when": {
+        "east": "true"
+      }
+    }
+  ]
+}

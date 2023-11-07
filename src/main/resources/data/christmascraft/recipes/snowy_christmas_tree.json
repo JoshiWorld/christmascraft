@@ -1,0 +1,28 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" L ",
+		"LLL",
+		" W "
+	],
+	
+	"key":
+	{
+		"W":
+		{
+			"item": "minecraft:spruce_log"
+		},
+		
+		"L":
+		{
+			"item": "christmascraft:snowy_christmas_leaves"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:snowy_christmas_tree"
+	}
+}

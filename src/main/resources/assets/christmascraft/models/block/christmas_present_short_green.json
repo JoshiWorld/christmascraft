@@ -1,0 +1,8 @@
+{
+  "parent": "christmascraft:block/template/christmas_present_short",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "base": "christmascraft:block/green_christmas_gift",
+    "flake": "christmascraft:block/yellow_flake"
+  }
+}

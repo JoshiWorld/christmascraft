@@ -1,0 +1,27 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	"group": "christmascraft:light_wall_block",
+	"pattern":
+	[
+		"GGG",
+		" B "
+	],
+	
+	"key":
+	{
+		"G":
+		{
+			"item": "christmascraft:wire"
+		},
+		
+		"B":
+		{
+			"item": "christmascraft:light_bulb_lime"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:christmas_wall_light_lime"
+	}
+}

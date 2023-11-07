@@ -1,0 +1,38 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"BR",
+		"SC",
+		"S "
+	],
+	
+	"key":
+	{
+		"R":
+		{
+			"item": "christmascraft:scarf_magenta"
+		},
+		
+		"S":
+		{
+			"item": "minecraft:snow_block"
+		},
+		
+		"B":
+		{
+			"item": "christmascraft:black_hat"
+		},
+		
+		"C":
+		{
+			"item": "minecraft:carrot"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:snowman_block_magenta"
+	}
+}

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_name",
+              "source": "block_entity"
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "ops": [
+                {
+                  "op": "replace",
+                  "source": "InventorySlot",
+                  "target": "BlockEntityTag.InventorySlot"
+                }
+              ],
+              "source": "block_entity"
+            },
+            {
+              "type": "christmascraft:epiphany_stocking",
+              "entries": [
+                {
+                  "type": "minecraft:dynamic",
+                  "name": "minecraft:contents"
+                }
+              ],
+              "function": "minecraft:set_contents"
+            }
+          ],
+          "name": "christmascraft:epiphany_stocking_pink"
+        }
+      ],
+      "name": "epiphany_stocking_pink",
+      "rolls": 1.0
+    }
+  ]
+}

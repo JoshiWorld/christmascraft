@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "christmascraft:light_bulb",
+	"ingredients": [
+	{
+			"item": "minecraft:pink_dye"
+	},
+	{
+			"item": "christmascraft:light_bulb"
+	},
+	{
+			"item": "christmascraft:light_bulb"
+	},
+	{
+			"item": "christmascraft:light_bulb"
+	},
+	{
+			"item": "christmascraft:light_bulb"
+	},
+	{
+			"item": "christmascraft:light_bulb"
+	},
+	{
+			"item": "christmascraft:light_bulb"
+	},
+	{
+			"item": "christmascraft:light_bulb"
+	},
+	{
+			"item": "christmascraft:light_bulb"
+	}
+	],
+	"result":
+	{
+		"item": "christmascraft:light_bulb_pink",
+		"count": 8
+	}
+}

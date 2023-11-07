@@ -1,0 +1,28 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	"group": "christmascraft:light_ceiling_block",
+	"pattern":
+	[
+		"G",
+		"G",
+		"B"
+	],
+	
+	"key":
+	{
+		"G":
+		{
+			"item": "christmascraft:wire"
+		},
+		
+		"B":
+		{
+			"item": "christmascraft:light_bulb_blue"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:christmas_ceiling_light_blue"
+	}
+}

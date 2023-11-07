@@ -1,0 +1,8 @@
+{
+  "parent": "christmascraft:block/template/square_floor_template",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "cable": "christmascraft:block/plastic_block_yellow",
+    "side": "christmascraft:block/plastic_block_white"
+  }
+}

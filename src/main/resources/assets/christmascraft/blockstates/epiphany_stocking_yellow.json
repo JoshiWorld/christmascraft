@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "christmascraft:block/epiphany_stocking_yellow",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "christmascraft:block/epiphany_stocking_yellow"
+    },
+    "facing=south": {
+      "model": "christmascraft:block/epiphany_stocking_yellow",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "christmascraft:block/epiphany_stocking_yellow",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"ASE"
+	],
+	
+	"key":
+	{
+		"S":
+		{
+			"item": "minecraft:sugar"
+		},
+		"E":
+		{
+			"item": "minecraft:egg"
+		},
+		"A":
+		{
+			"item": "minecraft:apple"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:apple_pie"
+	}
+}

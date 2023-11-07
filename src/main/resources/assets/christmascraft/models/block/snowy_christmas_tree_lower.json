@@ -1,0 +1,7 @@
+{
+  "parent": "christmascraft:block/template/christmas_tree_bottom",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "leaves": "christmascraft:block/snowy_christmas_light"
+  }
+}

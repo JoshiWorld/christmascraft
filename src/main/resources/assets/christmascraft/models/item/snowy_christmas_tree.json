@@ -1,0 +1,6 @@
+{
+  "parent": "christmascraft:item/christmas_tree_inventory",
+  "textures": {
+    "leaves": "christmascraft:block/snowy_christmas_light"
+  }
+}

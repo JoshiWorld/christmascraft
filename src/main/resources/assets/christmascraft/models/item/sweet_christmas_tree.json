@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "christmascraft:item/sweet_christmas_tree"
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	"group": "christmas_present_short",
+	"pattern":
+	[
+		" F ",
+		"RRR",
+		"RRR"
+	],
+	
+	"key":
+	{
+		"R":
+		{
+			"item": "christmascraft:gift_card_yellow"
+		},
+		
+		"F":
+		{
+			"item": "christmascraft:gift_card_orange"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:christmas_present_short_yellow"
+	}
+}

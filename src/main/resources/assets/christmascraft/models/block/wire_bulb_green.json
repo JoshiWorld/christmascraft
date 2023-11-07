@@ -1,0 +1,8 @@
+{
+    "parent": "christmascraft:block/template/wire_bulb",
+    "textures": {
+        "base": "christmascraft:block/greens",
+		"lamp": "minecraft:block/green_stained_glass",
+		"bulb": "christmascraft:block/plastic_block_green"
+    }
+}

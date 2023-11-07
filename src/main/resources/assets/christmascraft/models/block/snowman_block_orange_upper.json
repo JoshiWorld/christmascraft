@@ -1,0 +1,7 @@
+{
+  "parent": "christmascraft:block/template/snowman_block_top_template",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "scarf": "minecraft:block/orange_wool"
+  }
+}

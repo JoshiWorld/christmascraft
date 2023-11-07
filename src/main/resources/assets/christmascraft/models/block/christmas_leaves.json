@@ -1,0 +1,8 @@
+{
+  "parent": "christmascraft:block/template/christmas_leaves_template",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "leaves": "minecraft:block/spruce_leaves",
+    "light": "christmascraft:block/christmas_light_overlay"
+  }
+}

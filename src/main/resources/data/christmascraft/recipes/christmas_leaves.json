@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+	"ingredients": [
+	{
+			"item": "minecraft:spruce_leaves"
+	},
+	{
+			"tag": "christmascraft:bulbs_tag"
+	},
+	{
+			"tag": "christmascraft:bulbs_tag"
+	},
+	{
+			"tag": "christmascraft:bulbs_tag"
+	},
+	{
+			"tag": "christmascraft:bulbs_tag"
+	},
+	{
+			"tag": "christmascraft:bulbs_tag"
+	},
+	{
+			"tag": "christmascraft:bulbs_tag"
+	},
+	{
+			"tag": "christmascraft:bulbs_tag"
+	},
+	{
+			"tag": "christmascraft:bulbs_tag"
+	}
+	],
+	"result":
+	{
+		"item": "christmascraft:christmas_leaves",
+		"count": 16
+	}
+}

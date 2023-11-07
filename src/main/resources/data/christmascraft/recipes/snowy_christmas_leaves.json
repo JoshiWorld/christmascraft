@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+	"ingredients": [
+	{
+			"item": "christmascraft:christmas_leaves"
+	},
+	{
+			"item": "minecraft:snowball"
+	}
+	],
+	"result":
+	{
+		"item": "christmascraft:snowy_christmas_leaves",
+		"count": 16
+	}
+}

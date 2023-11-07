@@ -1,0 +1,32 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"I",
+		"B",
+		"P"
+	],
+	
+	"key":
+	{
+		"I":
+		{
+			"item": "minecraft:gold_ingot"
+		},
+		
+		"B":
+		{
+			"item": "minecraft:gold_block"
+		},
+		
+		"P":
+		{
+			"item": "minecraft:light_weighted_pressure_plate"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:christmas_tree_topper"
+	}
+}

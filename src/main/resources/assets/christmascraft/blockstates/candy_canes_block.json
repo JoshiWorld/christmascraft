@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "face=floor,facing=east":  { "model": "christmascraft:block/candy_canes_block_floor", "y": 270 },
+        "face=floor,facing=west":  { "model": "christmascraft:block/candy_canes_block_floor", "y": 90 },
+        "face=floor,facing=south": { "model": "christmascraft:block/candy_canes_block_floor" },
+        "face=floor,facing=north": { "model": "christmascraft:block/candy_canes_block_floor", "y": 180 },
+        "face=wall,facing=east":  { "model": "christmascraft:block/candy_canes_block", "y": 90 },
+        "face=wall,facing=west":  { "model": "christmascraft:block/candy_canes_block", "y": 270 },
+        "face=wall,facing=south": { "model": "christmascraft:block/candy_canes_block", "y": 180 },
+        "face=wall,facing=north": { "model": "christmascraft:block/candy_canes_block" },
+        "face=ceiling,facing=east":  { "model": "christmascraft:block/candy_canes_block_ceiling", "y": 270 },
+        "face=ceiling,facing=west":  { "model": "christmascraft:block/candy_canes_block_ceiling", "y": 90 },
+        "face=ceiling,facing=south": { "model": "christmascraft:block/candy_canes_block_ceiling" },
+        "face=ceiling,facing=north": { "model": "christmascraft:block/candy_canes_block_ceiling", "y": 180 }
+    }
+}

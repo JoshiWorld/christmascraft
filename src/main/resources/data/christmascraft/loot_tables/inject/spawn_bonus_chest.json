@@ -1,0 +1,22 @@
+{
+	"pools": [{
+		"name": "main",
+		"rolls": 1,
+		"entries": [
+			{
+			  "type": "minecraft:item",
+			  "weight": 30,
+			  "name": "christmascraft:disc_marrychristmas"
+			},
+			{
+			  "type": "minecraft:item",
+			  "weight": 30,
+			  "name": "christmascraft:disc_jinglebells"
+			},
+			{
+			  "type": "empty",
+			  "weight": 40
+			}
+		]
+	}]
+}

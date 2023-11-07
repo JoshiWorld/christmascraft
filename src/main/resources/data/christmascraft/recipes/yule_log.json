@@ -1,0 +1,39 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" B ",
+		"MSC",
+		"WWW"
+	],
+	
+	"key":
+	{
+		"S":
+		{
+			"item": "minecraft:sugar"
+		},
+		"M":
+		{
+			"item": "minecraft:milk_bucket"
+		},
+		"B":
+		{
+			"item": "minecraft:sweet_berries"
+		},
+		"C":
+		{
+			"item": "christmascraft:chocolate_bar"
+		},
+		"W":
+		{
+			"item": "minecraft:wheat"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:yule_log"
+	}
+}

@@ -1,0 +1,43 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"CBC",
+		"SES",
+		"WMW"
+	],
+	
+	"key":
+	{
+		"S":
+		{
+			"item": "minecraft:sugar"
+		},
+		"M":
+		{
+			"item": "minecraft:milk_bucket"
+		},
+		"B":
+		{
+			"item": "minecraft:sweet_berries"
+		},
+		"C":
+		{
+			"item": "christmascraft:chocolate_bar"
+		},
+		"W":
+		{
+			"item": "minecraft:wheat"
+		},
+		"E":
+		{
+			"item": "minecraft:egg"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:christmas_pudding"
+	}
+}

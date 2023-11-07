@@ -1,0 +1,6 @@
+{
+    "parent": "christmascraft:item/hat_template",
+    "textures": {
+        "wool": "minecraft:block/black_wool"
+    }
+}

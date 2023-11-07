@@ -1,0 +1,22 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"SS",
+		"SS"
+	],
+	
+	"key":
+	{
+		"S":
+		{
+			"item": "christmascraft:gingerbread"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:gingerbread_block"
+	}
+}

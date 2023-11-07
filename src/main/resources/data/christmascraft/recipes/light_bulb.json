@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" V ",
+		"VOV",
+		"FRF"
+	],
+	
+	"key":
+	{
+		"V":
+		{
+			"item": "minecraft:glass_pane"
+		},
+		
+		"O":
+		{
+			"item": "minecraft:gold_nugget"
+		},
+		
+		"F":
+		{
+			"item": "minecraft:iron_nugget"
+		},
+		
+		"R":
+		{
+			"item": "minecraft:redstone"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:light_bulb",
+		"count": 4
+	}
+}

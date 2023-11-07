@@ -1,0 +1,28 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	"group": "christmas_present",
+	"pattern":
+	[
+		"RRR",
+		"RCR",
+		"RRR"
+	],
+	
+	"key":
+	{
+		"C":
+		{
+			"item": "minecraft:chest"
+		},
+		
+		"R":
+		{
+			"item": "christmascraft:gift_card_yellow"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:christmas_present_yellow"
+	}
+}

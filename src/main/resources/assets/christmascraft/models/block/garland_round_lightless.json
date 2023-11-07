@@ -1,0 +1,9 @@
+{
+  "parent": "christmascraft:block/template/garland_round_lightless_template",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "leaves": "minecraft:block/spruce_leaves",
+    "overlay": "christmascraft:block/christmas_light_overlay",
+    "wool": "minecraft:block/red_wool"
+  }
+}

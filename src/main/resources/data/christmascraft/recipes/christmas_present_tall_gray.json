@@ -1,0 +1,23 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	"group": "christmas_present_tall",
+	"pattern":
+	[
+		"RR",
+		"RR",
+		"RR"
+	],
+	
+	"key":
+	{
+		"R":
+		{
+			"item": "christmascraft:gift_card_gray"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:christmas_present_tall_gray"
+	}
+}

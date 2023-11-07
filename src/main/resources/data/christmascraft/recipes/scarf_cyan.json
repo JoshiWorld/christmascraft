@@ -1,0 +1,23 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"R",
+		"R",
+		"R"
+	],
+	
+	"key":
+	{
+		"R":
+		{
+			"item": "minecraft:cyan_wool"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:scarf_cyan"
+	}
+}

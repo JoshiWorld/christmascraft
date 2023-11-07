@@ -1,0 +1,8 @@
+{
+  "parent": "christmascraft:block/template/epiphany_stocking_template",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "snow": "minecraft:block/snow",
+    "wool": "minecraft:block/red_wool"
+  }
+}

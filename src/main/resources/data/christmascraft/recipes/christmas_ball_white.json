@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "christmas_ball",
+	"pattern":
+	[
+		"I",
+		"B"
+	],
+	
+	"key":
+	{
+		"B":
+		{
+			"item": "christmascraft:plastic_block_white"
+		},
+		
+		"I":
+		{
+			"item": "minecraft:gold_nugget"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:christmas_ball_white",
+		"count": 4
+	}
+}

@@ -1,0 +1,11 @@
+{
+    "type" : "minecraft:smelting",
+	"ingredient":
+	{
+		"item": "christmascraft:gingerbread"
+	},
+	
+	"result": "christmascraft:gingerbread_man",
+	"experience": 0.35,
+	"cookingtime": 200
+}

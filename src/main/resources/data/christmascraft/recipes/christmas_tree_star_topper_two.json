@@ -1,0 +1,21 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"GG"
+	],
+	
+	"key":
+	{
+		"G":
+		{
+			"item": "christmascraft:christmas_tree_star_topper_one"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:christmas_tree_star_topper_two"
+	}
+}

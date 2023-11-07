@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "christmascraft:block/redstone_lamp_gray"
+    },
+    "lit=true": {
+      "model": "christmascraft:block/redstone_lamp_gray_on"
+    }
+  }
+}

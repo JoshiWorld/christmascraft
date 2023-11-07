@@ -1,0 +1,33 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"ESE",
+		"WWW"
+	],
+	
+	"key":
+	{
+		"E":
+		{
+			"item": "minecraft:egg"
+		},
+		
+		"W":
+		{
+			"item": "minecraft:wheat"
+		},
+		
+		"S":
+		{
+			"item": "minecraft:sugar"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:gingerbread",
+		"count": 3
+	}
+}

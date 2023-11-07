@@ -1,0 +1,6 @@
+{
+    "parent": "christmascraft:block/template/wire_ceiling",
+    "textures": {
+        "base": "christmascraft:block/greens"
+    }
+}

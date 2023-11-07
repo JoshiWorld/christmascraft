@@ -1,0 +1,31 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"SSS",
+		"SAS",
+		"BSS"
+	],
+	
+	"key":
+	{
+		"S":
+		{
+			"item": "minecraft:sugar"
+		},
+		"B":
+		{
+			"item": "minecraft:stick"
+		},
+		"A":
+		{
+			"item": "minecraft:apple"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:candy_apple"
+	}
+}

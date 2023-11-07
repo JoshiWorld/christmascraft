@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "garland": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "christmascraft:snowy_garland_lightless"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "christmascraft:snowy_garland_round_lightless"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "garland"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "christmascraft:snowy_garland_round_lightless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

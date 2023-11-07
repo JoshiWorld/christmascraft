@@ -1,0 +1,37 @@
+{
+    "type" : "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"BR",
+		"SC"
+	],
+	
+	"key":
+	{
+		"R":
+		{
+			"item": "christmascraft:scarf_gray"
+		},
+		
+		"S":
+		{
+			"item": "minecraft:snowball"
+		},
+		
+		"B":
+		{
+			"item": "christmascraft:black_hat"
+		},
+		
+		"C":
+		{
+			"item": "minecraft:carrot"
+		}
+	},
+	
+	"result":
+	{
+		"item": "christmascraft:little_snowman_gray"
+	}
+}
