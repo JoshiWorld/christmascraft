@@ -11,7 +11,7 @@
 		"homepage": "https://brokoly.de/",
 		"sources": "https://github.com/JoshiWorld/christmascraft"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/christmascraft/icon.png",
 	"environment": "*",
 	"entrypoints": {
