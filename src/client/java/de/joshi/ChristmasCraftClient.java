@@ -3,6 +3,8 @@ package de.joshi;
 import net.fabricmc.api.ClientModInitializer;
 
 public class ChristmasCraftClient implements ClientModInitializer {
+	public static String IDENTIFIER = "christmascraft";
+
 	@Override
 	public void onInitializeClient() {
 		// This entrypoint is suitable for setting up client-specific logic, such as rendering.

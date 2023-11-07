@@ -3,26 +3,26 @@
 	"id": "christmascraft",
 	"version": "${version}",
 	"name": "ChristmasCraft",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Christmas-Mod for Minecraft",
 	"authors": [
-		"Me!"
+		"JoshiWorld"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://brokoly.de/",
+		"sources": "https://github.com/JoshiWorld/christmascraft"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/christmascraft/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"de.joshi.ChristmasCraft"
-		],
 		"client": [
 			"de.joshi.ChristmasCraftClient"
 		],
 		"fabric-datagen": [
 			"de.joshi.ChristmasCraftDataGenerator"
+		],
+		"main": [
+			"de.joshi.ChristmasCraft"
 		]
 	},
 	"mixins": [
