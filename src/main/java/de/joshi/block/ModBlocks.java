@@ -4,8 +4,10 @@ import de.joshi.ChristmasCraft;
 import de.joshi.block.custom.*;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
+import net.minecraft.block.LeavesBlock;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 
@@ -238,9 +240,9 @@ public class ModBlocks {
     // CUSTOM BLOCKS
     public static final Block SUGAR_BLOCK = registerBlock("sugar_block", new Block(FabricBlockSettings.create()));
     public static final Block GINGERBREAD_BLOCK = registerBlock("gingerbread_block", new Block(FabricBlockSettings.create()));
-    public static final Block CHRISTMAS_LEAVES = registerBlock("christmas_leaves", new Block(FabricBlockSettings.create()));
-    public static final Block SNOWY_CHRISTMAS_LEAVES = registerBlock("snowy_christmas_leaves", new Block(FabricBlockSettings.create()));
-    public static final Block SNOWY_LEAVES = registerBlock("snowy_leaves", new Block(FabricBlockSettings.create()));
+    public static final Block CHRISTMAS_LEAVES = registerBlock("christmas_leaves", new Block(FabricBlockSettings.create().sounds(BlockSoundGroup.AZALEA_LEAVES)));
+    public static final Block SNOWY_CHRISTMAS_LEAVES = registerBlock("snowy_christmas_leaves", new Block(FabricBlockSettings.create().sounds(BlockSoundGroup.AZALEA_LEAVES)));
+    public static final Block SNOWY_LEAVES = registerBlock("snowy_leaves", new Block(FabricBlockSettings.create().sounds(BlockSoundGroup.AZALEA_LEAVES)));
     public static final Block CHRISTMAS_TREE_TOPPER = registerBlock("christmas_tree_topper", new Block(FabricBlockSettings.create()));
     public static final Block CHRISTMAS_TREE_STAR_TOPPER_ONE = registerBlock("christmas_tree_star_topper_one", new Block(FabricBlockSettings.create()));
     public static final Block CHRISTMAS_TREE_STAR_TOPPER_TWO = registerBlock("christmas_tree_star_topper_two", new Block(FabricBlockSettings.create()));
