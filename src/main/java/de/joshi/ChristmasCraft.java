@@ -1,5 +1,6 @@
 package de.joshi;
 
+import de.joshi.block.ModBlocks;
 import de.joshi.item.ModItemGroups;
 import de.joshi.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,5 +15,6 @@ public class ChristmasCraft implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }
