@@ -102,13 +102,13 @@ public class ModBlocks {
 
     // GARLAND
     public static final Block GARLAND = registerBlock("garland", new Block(FabricBlockSettings.create()));
-    public static final Block GARLAND_ROUND = registerBlock("garland_round", new Block(FabricBlockSettings.create())); // HorizontalDirectionalBlock
+    public static final Block GARLAND_ROUND = registerBlock("garland_round", new GarlandRoundBlock());
     public static final Block SNOWY_GARLAND = registerBlock("snowy_garland", new Block(FabricBlockSettings.create()));
-    public static final Block SNOWY_GARLAND_ROUND = registerBlock("snowy_garland_round", new Block(FabricBlockSettings.create())); // HorizontalDirectionalBlock
+    public static final Block SNOWY_GARLAND_ROUND = registerBlock("snowy_garland_round", new GarlandRoundBlock());
     public static final Block GARLAND_LIGHTLESS = registerBlock("garland_lightless", new Block(FabricBlockSettings.create()));
-    public static final Block GARLAND_ROUND_LIGHTLESS = registerBlock("garland_round_lightless", new Block(FabricBlockSettings.create())); // HorizontalDirectionalBlock
+    public static final Block GARLAND_ROUND_LIGHTLESS = registerBlock("garland_round_lightless", new GarlandRoundBlock());
     public static final Block SNOWY_GARLAND_LIGHTLESS = registerBlock("snowy_garland_lightless", new Block(FabricBlockSettings.create()));
-    public static final Block SNOWY_GARLAND_ROUND_LIGHTLESS = registerBlock("snowy_garland_round_lightless", new Block(FabricBlockSettings.create())); // HorizontalDirectionalBlock
+    public static final Block SNOWY_GARLAND_ROUND_LIGHTLESS = registerBlock("snowy_garland_round_lightless", new GarlandRoundBlock());
 
     // SNOWMAN BLOCK
     public static final Block SNOWMAN_BLOCK_WHITE = registerBlock("snowman_block_white", new TwoBlocksFacing());
@@ -127,6 +127,113 @@ public class ModBlocks {
     public static final Block SNOWMAN_BLOCK_GREEN = registerBlock("snowman_block_green", new TwoBlocksFacing());
     public static final Block SNOWMAN_BLOCK_RED = registerBlock("snowman_block_red", new TwoBlocksFacing());
     public static final Block SNOWMAN_BLOCK_BLACK = registerBlock("snowman_block_black", new TwoBlocksFacing());
+
+    // LITTLE SNOWMAN
+    public static final Block LITTLE_SNOWMAN_WHITE = registerBlock("little_snowman_white", new LittleSnowmanBlock());
+    public static final Block LITTLE_SNOWMAN_ORANGE = registerBlock("little_snowman_orange", new LittleSnowmanBlock());
+    public static final Block LITTLE_SNOWMAN_MAGENTA = registerBlock("little_snowman_magenta", new LittleSnowmanBlock());
+    public static final Block LITTLE_SNOWMAN_LIGHT_BLUE = registerBlock("little_snowman_light_blue", new LittleSnowmanBlock());
+    public static final Block LITTLE_SNOWMAN_YELLOW = registerBlock("little_snowman_yellow", new LittleSnowmanBlock());
+    public static final Block LITTLE_SNOWMAN_LIME = registerBlock("little_snowman_lime", new LittleSnowmanBlock());
+    public static final Block LITTLE_SNOWMAN_PINK = registerBlock("little_snowman_pink", new LittleSnowmanBlock());
+    public static final Block LITTLE_SNOWMAN_GRAY = registerBlock("little_snowman_gray", new LittleSnowmanBlock());
+    public static final Block LITTLE_SNOWMAN_LIGHT_GRAY = registerBlock("little_snowman_light_gray", new LittleSnowmanBlock());
+    public static final Block LITTLE_SNOWMAN_CYAN = registerBlock("little_snowman_cyan", new LittleSnowmanBlock());
+    public static final Block LITTLE_SNOWMAN_PURPLE = registerBlock("little_snowman_purple", new LittleSnowmanBlock());
+    public static final Block LITTLE_SNOWMAN_BLUE = registerBlock("little_snowman_blue", new LittleSnowmanBlock());
+    public static final Block LITTLE_SNOWMAN_BROWN = registerBlock("little_snowman_brown", new LittleSnowmanBlock());
+    public static final Block LITTLE_SNOWMAN_GREEN = registerBlock("little_snowman_green", new LittleSnowmanBlock());
+    public static final Block LITTLE_SNOWMAN_RED = registerBlock("little_snowman_red", new LittleSnowmanBlock());
+    public static final Block LITTLE_SNOWMAN_BLACK = registerBlock("little_snowman_black", new LittleSnowmanBlock());
+
+    // CHRISTMAS PRESENT
+    public static final Block CHRISTMAS_PRESENT_WHITE = registerBlock("christmas_present_white", new ChristmasPresentsBlock());
+    public static final Block CHRISTMAS_PRESENT_ORANGE = registerBlock("christmas_present_orange", new ChristmasPresentsBlock());
+    public static final Block CHRISTMAS_PRESENT_MAGENTA = registerBlock("christmas_present_magenta", new ChristmasPresentsBlock());
+    public static final Block CHRISTMAS_PRESENT_LIGHT_BLUE = registerBlock("christmas_present_light_blue", new ChristmasPresentsBlock());
+    public static final Block CHRISTMAS_PRESENT_YELLOW = registerBlock("christmas_present_yellow", new ChristmasPresentsBlock());
+    public static final Block CHRISTMAS_PRESENT_LIME = registerBlock("christmas_present_lime", new ChristmasPresentsBlock());
+    public static final Block CHRISTMAS_PRESENT_PINK = registerBlock("christmas_present_pink", new ChristmasPresentsBlock());
+    public static final Block CHRISTMAS_PRESENT_GRAY = registerBlock("christmas_present_gray", new ChristmasPresentsBlock());
+    public static final Block CHRISTMAS_PRESENT_LIGHT_GRAY = registerBlock("christmas_present_light_gray", new ChristmasPresentsBlock());
+    public static final Block CHRISTMAS_PRESENT_CYAN = registerBlock("christmas_present_cyan", new ChristmasPresentsBlock());
+    public static final Block CHRISTMAS_PRESENT_PURPLE = registerBlock("christmas_present_purple", new ChristmasPresentsBlock());
+    public static final Block CHRISTMAS_PRESENT_BLUE = registerBlock("christmas_present_blue", new ChristmasPresentsBlock());
+    public static final Block CHRISTMAS_PRESENT_BROWN = registerBlock("christmas_present_brown", new ChristmasPresentsBlock());
+    public static final Block CHRISTMAS_PRESENT_GREEN = registerBlock("christmas_present_green", new ChristmasPresentsBlock());
+    public static final Block CHRISTMAS_PRESENT_RED = registerBlock("christmas_present_red", new ChristmasPresentsBlock());
+    public static final Block CHRISTMAS_PRESENT_BLACK = registerBlock("christmas_present_black", new ChristmasPresentsBlock());
+
+    // CHRISTMAS PRESENT SHORT
+    public static final Block CHRISTMAS_PRESENT_SHORT_WHITE = registerBlock("christmas_present_short_white", new ChristmasPresentsShortBlock());
+    public static final Block CHRISTMAS_PRESENT_SHORT_ORANGE = registerBlock("christmas_present_short_orange", new ChristmasPresentsShortBlock());
+    public static final Block CHRISTMAS_PRESENT_SHORT_MAGENTA = registerBlock("christmas_present_short_magenta", new ChristmasPresentsShortBlock());
+    public static final Block CHRISTMAS_PRESENT_SHORT_LIGHT_BLUE = registerBlock("christmas_present_short_light_blue", new ChristmasPresentsShortBlock());
+    public static final Block CHRISTMAS_PRESENT_SHORT_YELLOW = registerBlock("christmas_present_short_yellow", new ChristmasPresentsShortBlock());
+    public static final Block CHRISTMAS_PRESENT_SHORT_LIME = registerBlock("christmas_present_short_lime", new ChristmasPresentsShortBlock());
+    public static final Block CHRISTMAS_PRESENT_SHORT_PINK = registerBlock("christmas_present_short_pink", new ChristmasPresentsShortBlock());
+    public static final Block CHRISTMAS_PRESENT_SHORT_GRAY = registerBlock("christmas_present_short_gray", new ChristmasPresentsShortBlock());
+    public static final Block CHRISTMAS_PRESENT_SHORT_LIGHT_GRAY = registerBlock("christmas_present_short_light_gray", new ChristmasPresentsShortBlock());
+    public static final Block CHRISTMAS_PRESENT_SHORT_CYAN = registerBlock("christmas_present_short_cyan", new ChristmasPresentsShortBlock());
+    public static final Block CHRISTMAS_PRESENT_SHORT_PURPLE = registerBlock("christmas_present_short_purple", new ChristmasPresentsShortBlock());
+    public static final Block CHRISTMAS_PRESENT_SHORT_BLUE = registerBlock("christmas_present_short_blue", new ChristmasPresentsShortBlock());
+    public static final Block CHRISTMAS_PRESENT_SHORT_BROWN = registerBlock("christmas_present_short_brown", new ChristmasPresentsShortBlock());
+    public static final Block CHRISTMAS_PRESENT_SHORT_GREEN = registerBlock("christmas_present_short_green", new ChristmasPresentsShortBlock());
+    public static final Block CHRISTMAS_PRESENT_SHORT_RED = registerBlock("christmas_present_short_red", new ChristmasPresentsShortBlock());
+    public static final Block CHRISTMAS_PRESENT_SHORT_BLACK = registerBlock("christmas_present_short_black", new ChristmasPresentsShortBlock());
+
+    // CHRISTMAS PRESENT TALL
+    public static final Block CHRISTMAS_PRESENT_TALL_WHITE = registerBlock("christmas_present_tall_white", new ChristmasPresentsTallBlock());
+    public static final Block CHRISTMAS_PRESENT_TALL_ORANGE = registerBlock("christmas_present_tall_orange", new ChristmasPresentsTallBlock());
+    public static final Block CHRISTMAS_PRESENT_TALL_MAGENTA = registerBlock("christmas_present_tall_magenta", new ChristmasPresentsTallBlock());
+    public static final Block CHRISTMAS_PRESENT_TALL_LIGHT_BLUE = registerBlock("christmas_present_tall_light_blue", new ChristmasPresentsTallBlock());
+    public static final Block CHRISTMAS_PRESENT_TALL_YELLOW = registerBlock("christmas_present_tall_yellow", new ChristmasPresentsTallBlock());
+    public static final Block CHRISTMAS_PRESENT_TALL_LIME = registerBlock("christmas_present_tall_lime", new ChristmasPresentsTallBlock());
+    public static final Block CHRISTMAS_PRESENT_TALL_PINK = registerBlock("christmas_present_tall_pink", new ChristmasPresentsTallBlock());
+    public static final Block CHRISTMAS_PRESENT_TALL_GRAY = registerBlock("christmas_present_tall_gray", new ChristmasPresentsTallBlock());
+    public static final Block CHRISTMAS_PRESENT_TALL_LIGHT_GRAY = registerBlock("christmas_present_tall_light_gray", new ChristmasPresentsTallBlock());
+    public static final Block CHRISTMAS_PRESENT_TALL_CYAN = registerBlock("christmas_present_tall_cyan", new ChristmasPresentsTallBlock());
+    public static final Block CHRISTMAS_PRESENT_TALL_PURPLE = registerBlock("christmas_present_tall_purple", new ChristmasPresentsTallBlock());
+    public static final Block CHRISTMAS_PRESENT_TALL_BLUE = registerBlock("christmas_present_tall_blue", new ChristmasPresentsTallBlock());
+    public static final Block CHRISTMAS_PRESENT_TALL_BROWN = registerBlock("christmas_present_tall_brown", new ChristmasPresentsTallBlock());
+    public static final Block CHRISTMAS_PRESENT_TALL_GREEN = registerBlock("christmas_present_tall_red", new ChristmasPresentsTallBlock());
+    public static final Block CHRISTMAS_PRESENT_TALL_BLACK = registerBlock("christmas_present_tall_black", new ChristmasPresentsTallBlock());
+
+    // EPIPHANY STOCKING
+    public static final Block EPIPHANY_STOCKING_WHITE = registerBlock("epiphany_stocking_white", new EpiphanyStockingBlock());
+    public static final Block EPIPHANY_STOCKING_ORANGE = registerBlock("epiphany_stocking_orange", new EpiphanyStockingBlock());
+    public static final Block EPIPHANY_STOCKING_MAGENTA = registerBlock("epiphany_stocking_magenta", new EpiphanyStockingBlock());
+    public static final Block EPIPHANY_STOCKING_LIGHT_BLUE = registerBlock("epiphany_stocking_light_blue", new EpiphanyStockingBlock());
+    public static final Block EPIPHANY_STOCKING_YELLOW = registerBlock("epiphany_stocking_yellow", new EpiphanyStockingBlock());
+    public static final Block EPIPHANY_STOCKING_LIME = registerBlock("epiphany_stocking_lime", new EpiphanyStockingBlock());
+    public static final Block EPIPHANY_STOCKING_PINK = registerBlock("epiphany_stocking_pink", new EpiphanyStockingBlock());
+    public static final Block EPIPHANY_STOCKING_GRAY = registerBlock("epiphany_stocking_gray", new EpiphanyStockingBlock());
+    public static final Block EPIPHANY_STOCKING_LIGHT_GRAY = registerBlock("epiphany_stocking_light_gray", new EpiphanyStockingBlock());
+    public static final Block EPIPHANY_STOCKING_CYAN = registerBlock("epiphany_stocking_cyan", new EpiphanyStockingBlock());
+    public static final Block EPIPHANY_STOCKING_PURPLE = registerBlock("epiphany_stocking_purple", new EpiphanyStockingBlock());
+    public static final Block EPIPHANY_STOCKING_BLUE = registerBlock("epiphany_stocking_blue", new EpiphanyStockingBlock());
+    public static final Block EPIPHANY_STOCKING_BROWN = registerBlock("epiphany_stocking_brown", new EpiphanyStockingBlock());
+    public static final Block EPIPHANY_STOCKING_GREEN = registerBlock("epiphany_stocking_green", new EpiphanyStockingBlock());
+    public static final Block EPIPHANY_STOCKING_RED = registerBlock("epiphany_stocking_red", new EpiphanyStockingBlock());
+    public static final Block EPIPHANY_STOCKING_BLACK = registerBlock("epiphany_stocking_black", new EpiphanyStockingBlock());
+
+    // RREDSTONE LAMP
+    public static final Block REDSTONE_LAMP_WHITE = registerBlock("redstone_lamp_white", new RedstoneLampBlock());
+    public static final Block REDSTONE_LAMP_ORANGE = registerBlock("redstone_lamp_orange", new RedstoneLampBlock());
+    public static final Block REDSTONE_LAMP_MAGENTA = registerBlock("redstone_lamp_magenta", new RedstoneLampBlock());
+    public static final Block REDSTONE_LAMP_LIGHT_BLUE = registerBlock("redstone_lamp_light_blue", new RedstoneLampBlock());
+    public static final Block REDSTONE_LAMP_YELLOW = registerBlock("redstone_lamp_yellow", new RedstoneLampBlock());
+    public static final Block REDSTONE_LAMP_LIME = registerBlock("redstone_lamp_lime", new RedstoneLampBlock());
+    public static final Block REDSTONE_LAMP_PINK = registerBlock("redstone_lamp_pink", new RedstoneLampBlock());
+    public static final Block REDSTONE_LAMP_GRAY = registerBlock("redstone_lamp_gray", new RedstoneLampBlock());
+    public static final Block REDSTONE_LAMP_LIGHT_GRAY = registerBlock("redstone_lamp_light_gray", new RedstoneLampBlock());
+    public static final Block REDSTONE_LAMP_CYAN = registerBlock("redstone_lamp_cyan", new RedstoneLampBlock());
+    public static final Block REDSTONE_LAMP_PURPLE = registerBlock("redstone_lamp_purple", new RedstoneLampBlock());
+    public static final Block REDSTONE_LAMP_BLUE = registerBlock("redstone_lamp_blue", new RedstoneLampBlock());
+    public static final Block REDSTONE_LAMP_BROWN = registerBlock("redstone_lamp_brown", new RedstoneLampBlock());
+    public static final Block REDSTONE_LAMP_GREEN = registerBlock("redstone_lamp_green", new RedstoneLampBlock());
+    public static final Block REDSTONE_LAMP_RED = registerBlock("redstone_lamp_red", new RedstoneLampBlock());
+    public static final Block REDSTONE_LAMP_BLACK = registerBlock("redstone_lamp_black", new RedstoneLampBlock());
 
     // CUSTOM BLOCKS
     public static final Block SUGAR_BLOCK = registerBlock("sugar_block", new Block(FabricBlockSettings.create()));
