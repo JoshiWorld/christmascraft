@@ -2,13 +2,20 @@ package de.joshi.item;
 
 import de.joshi.ChristmasCraft;
 import de.joshi.block.ModBlocks;
+import de.joshi.item.custom.AdventCalendarItem;
+import de.joshi.item.custom.LightBulbItem;
+import de.joshi.item.custom.WearableItem;
+import de.joshi.item.food.ModFoodComponents;
+import de.joshi.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.MusicDiscItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 public class ModItems {
     // BLOCKITEMS
@@ -232,6 +239,76 @@ public class ModItems {
 
     // ITEMS
     public static final Item PLASTIC = registerItem("plastic", new Item(new FabricItemSettings()));
+    public static final Item GIFT_CARD_ORANGE = registerItem("gift_card_orange", new Item(new FabricItemSettings()));
+    public static final Item GIFT_CARD_MAGENTA = registerItem("gift_card_magenta", new Item(new FabricItemSettings()));
+    public static final Item GIFT_CARD_LIGHT_BLUE = registerItem("gift_card_light_blue", new Item(new FabricItemSettings()));
+    public static final Item GIFT_CARD_YELLOW = registerItem("gift_card_yellow", new Item(new FabricItemSettings()));
+    public static final Item GIFT_CARD_LIME = registerItem("gift_card_lime", new Item(new FabricItemSettings()));
+    public static final Item GIFT_CARD_PINK = registerItem("gift_card_pink", new Item(new FabricItemSettings()));
+    public static final Item GIFT_CARD_GRAY = registerItem("gift_card_gray", new Item(new FabricItemSettings()));
+    public static final Item GIFT_CARD_LIGHT_GRAY = registerItem("gift_card_light_gray", new Item(new FabricItemSettings()));
+    public static final Item GIFT_CARD_CYAN = registerItem("gift_card_cyan", new Item(new FabricItemSettings()));
+    public static final Item GIFT_CARD_PURPLE = registerItem("gift_card_purple", new Item(new FabricItemSettings()));
+    public static final Item GIFT_CARD_BLUE = registerItem("gift_card_blue", new Item(new FabricItemSettings()));
+    public static final Item GIFT_CARD_BROWN = registerItem("gift_card_brown", new Item(new FabricItemSettings()));
+    public static final Item GIFT_CARD_GREEN = registerItem("gift_card_green", new Item(new FabricItemSettings()));
+    public static final Item GIFT_CARD_RED = registerItem("gift_card_red", new Item(new FabricItemSettings()));
+    public static final Item GIFT_CARD_BLACK = registerItem("gift_card_black", new Item(new FabricItemSettings()));
+    public static final Item LIGHT_BULB = registerItem("light_bulb", new LightBulbItem());
+    public static final Item LIGHT_BULB_WHITE = registerItem("light_bulb_white", new LightBulbItem());
+    public static final Item LIGHT_BULB_ORANGE = registerItem("light_bulb_orange", new LightBulbItem());
+    public static final Item LIGHT_BULB_MAGENTA = registerItem("light_bulb_magenta", new LightBulbItem());
+    public static final Item LIGHT_BULB_LIGHT_BLUE = registerItem("light_bulb_light_blue", new LightBulbItem());
+    public static final Item LIGHT_BULB_YELLOW = registerItem("light_bulb_yellow", new LightBulbItem());
+    public static final Item LIGHT_BULB_LIME = registerItem("light_bulb_lime", new LightBulbItem());
+    public static final Item LIGHT_BULB_PINK = registerItem("light_bulb_pink", new LightBulbItem());
+    public static final Item LIGHT_BULB_GRAY = registerItem("light_bulb_gray", new LightBulbItem());
+    public static final Item LIGHT_BULB_LIGHT_GRAY = registerItem("light_bulb_light_gray", new LightBulbItem());
+    public static final Item LIGHT_BULB_CYAN = registerItem("light_bulb_cyan", new LightBulbItem());
+    public static final Item LIGHT_BULB_PURPLE = registerItem("light_bulb_purple", new LightBulbItem());
+    public static final Item LIGHT_BULB_BLUE = registerItem("light_bulb_blue", new LightBulbItem());
+    public static final Item LIGHT_BULB_BROWN = registerItem("light_bulb_brown", new LightBulbItem());
+    public static final Item LIGHT_BULB_GREEN = registerItem("light_bulb_green", new LightBulbItem());
+    public static final Item LIGHT_BULB_RED = registerItem("light_bulb_red", new LightBulbItem());
+    public static final Item LIGHT_BULB_BLACK = registerItem("light_bulb_black", new LightBulbItem());
+    public static final Item SCARF_WHITE = registerItem("scarf_white", new Item(new FabricItemSettings()));
+    public static final Item SCARF_ORANGE = registerItem("scarf_orange", new Item(new FabricItemSettings()));
+    public static final Item SCARF_MAGENTA = registerItem("scarf_magenta", new Item(new FabricItemSettings()));
+    public static final Item SCARF_LIGHT_BLUE = registerItem("scarf_light_blue", new Item(new FabricItemSettings()));
+    public static final Item SCARF_YELLOW = registerItem("scarf_yellow", new Item(new FabricItemSettings()));
+    public static final Item SCARF_LIME = registerItem("scarf_lime", new Item(new FabricItemSettings()));
+    public static final Item SCARF_PINK = registerItem("scarf_pink", new Item(new FabricItemSettings()));
+    public static final Item SCARF_GRAY = registerItem("scarf_gray", new Item(new FabricItemSettings()));
+    public static final Item SCARF_LIGHT_GRAY = registerItem("scarf_light_gray", new Item(new FabricItemSettings()));
+    public static final Item SCARF_CYAN = registerItem("scarf_cyan", new Item(new FabricItemSettings()));
+    public static final Item SCARF_PURPLE = registerItem("scarf_purple", new Item(new FabricItemSettings()));
+    public static final Item SCARF_BLUE = registerItem("scarf_blue", new Item(new FabricItemSettings()));
+    public static final Item SCARF_BROWN = registerItem("scarf_brown", new Item(new FabricItemSettings()));
+    public static final Item SCARF_GREEN = registerItem("scarf_green", new Item(new FabricItemSettings()));
+    public static final Item SCARF_RED = registerItem("scarf_red", new Item(new FabricItemSettings()));
+    public static final Item SCARF_BLACK = registerItem("scarf_black", new Item(new FabricItemSettings()));
+    public static final Item BLACK_HAT = registerItem("black_hat", new WearableItem());
+    public static final Item CHRISTMAS_HAT = registerItem("christmas_hat", new WearableItem());
+    public static final Item ADVENT_CALENDAR = registerItem("advent_calendar", new AdventCalendarItem());
+    public static final Item MARRY_CHRISTMAS_DISC = registerItem("disc_marrychristmas", new MusicDiscItem(7, ModSounds.MARRYCHRISTMAS, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 2760));
+    public static final Item JINGLEBELLS_DISC = registerItem("disc_jinglebells", new MusicDiscItem(7, ModSounds.JINGLEBELLS, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 2040));
+
+    // FOOD
+    public static final Item CANDY_CANES = registerItem("candy_canes", new Item(new FabricItemSettings().food(ModFoodComponents.CANDY_CANES)));
+    public static final Item SWEET_CHRISTMAS_TREE = registerItem("sweet_christmas_tree", new Item(new FabricItemSettings().food(ModFoodComponents.SWEET_CHRISTMAS_TREE)));
+    public static final Item GINGERBREAD = registerItem("gingerbread", new Item(new FabricItemSettings().food(ModFoodComponents.GINGERBREAD)));
+    public static final Item GINGERBREAD_MAN = registerItem("gingerbread_man", new Item(new FabricItemSettings().food(ModFoodComponents.GINGERBREAD_MAN)));
+    public static final Item CHOCOLATE_BAR = registerItem("chocolate_bar", new Item(new FabricItemSettings().food(ModFoodComponents.CHOCOLATE_BAR)));
+    public static final Item HOT_CHOCOLATE = registerItem("hot_chocolate", new Item(new FabricItemSettings().food(ModFoodComponents.HOT_CHOCOLATE)));
+    public static final Item CHRISTMAS_REINDEER_BISCUITS = registerItem("christmas_reindeer_biscuits", new Item(new FabricItemSettings().food(ModFoodComponents.CHRISTMAS_REINDEER_BISCUITS)));
+    public static final Item BISCUITS_SNOWMAN = registerItem("biscuits_snowman", new Item(new FabricItemSettings().food(ModFoodComponents.BISCUITS_SNOWMAN)));
+    public static final Item EGGNOG = registerItem("eggnog", new Item(new FabricItemSettings().food(ModFoodComponents.EGGNOG)));
+    public static final Item GUMDROPS = registerItem("gumdrops", new Item(new FabricItemSettings().food(ModFoodComponents.GUMDROPS)));
+    public static final Item CANDY_APPLE = registerItem("candy_apple", new Item(new FabricItemSettings().food(ModFoodComponents.CANDY_APPLE)));
+    public static final Item APPLE_PIE = registerItem("apple_pie", new Item(new FabricItemSettings().food(ModFoodComponents.APPLE_PIE)));
+    public static final Item PANETTONE = registerItem("panettone", new Item(new FabricItemSettings().food(ModFoodComponents.PANETTONE)));
+    public static final Item YULE_LOG = registerItem("yule_log", new Item(new FabricItemSettings().food(ModFoodComponents.YULE_LOG)));
+    public static final Item CHRISTMAS_PUDDING = registerItem("christmas_pudding", new Item(new FabricItemSettings().food(ModFoodComponents.CHRISTMAS_PUDDING)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(ChristmasCraft.MOD_ID, name), item);
