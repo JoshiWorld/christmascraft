@@ -283,9 +283,9 @@ public class ModItemGroups {
                 entries.add(ModItems.SCARF_GREEN);
                 entries.add(ModItems.SCARF_RED);
                 entries.add(ModItems.SCARF_BLACK);
-                entries.add(ModItems.BLACK_HAT);
-                entries.add(ModItems.CHRISTMAS_HAT);
-                entries.add(ModItems.ADVENT_CALENDAR);
+//                entries.add(ModItems.BLACK_HAT);
+//                entries.add(ModItems.CHRISTMAS_HAT);
+//                entries.add(ModItems.ADVENT_CALENDAR);
                 entries.add(ModItems.MARRY_CHRISTMAS_DISC);
                 entries.add(ModItems.JINGLEBELLS_DISC);
                 entries.add(ModItems.CANDY_CANES);
