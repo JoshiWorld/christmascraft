@@ -254,7 +254,7 @@ public class ModBlocks {
     public static final Block LITTLE_SNOWY_CHRISTMAS_TREE = registerBlock("little_snowy_christmas_tree", new LittleSnowmanBlock());
     public static final Block SANTA_CLAUS_BLOCK = registerBlock("santa_claus_block", new SantaClausBlock());
     public static final Block CHRISTMAS_BELLS = registerBlock("christmas_bells", new Block(FabricBlockSettings.create()));
-    public static final Block TALL_SANTA_CLAUS_BLOCK = registerBlock("tall_santa_claus_block", new Block(FabricBlockSettings.create()));
+//    public static final Block TALL_SANTA_CLAUS_BLOCK = registerBlock("tall_santa_claus_block", new Block(FabricBlockSettings.create()));
 
     private static Block registerBlock(String name, Block block) {
         return Registry.register(Registries.BLOCK, new Identifier(ChristmasCraft.MOD_ID, name), block);
