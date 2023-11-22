@@ -102,32 +102,32 @@ public class ModBlocks {
     public static final Block CHRISTMAS_BALL_BLACK = registerBlock("christmas_ball_black", new ChristmasBallBlock());
 
     // GARLAND
-    public static final Block GARLAND = registerBlock("garland", new Block(FabricBlockSettings.create()));
-    public static final Block GARLAND_ROUND = registerBlock("garland_round", new GarlandRoundBlock());
-    public static final Block SNOWY_GARLAND = registerBlock("snowy_garland", new Block(FabricBlockSettings.create()));
-    public static final Block SNOWY_GARLAND_ROUND = registerBlock("snowy_garland_round", new GarlandRoundBlock());
-    public static final Block GARLAND_LIGHTLESS = registerBlock("garland_lightless", new Block(FabricBlockSettings.create()));
-    public static final Block GARLAND_ROUND_LIGHTLESS = registerBlock("garland_round_lightless", new GarlandRoundBlock());
-    public static final Block SNOWY_GARLAND_LIGHTLESS = registerBlock("snowy_garland_lightless", new Block(FabricBlockSettings.create()));
-    public static final Block SNOWY_GARLAND_ROUND_LIGHTLESS = registerBlock("snowy_garland_round_lightless", new GarlandRoundBlock());
+//    public static final Block GARLAND = registerBlock("garland", new GarlandBlock());
+//    public static final Block GARLAND_ROUND = registerBlock("garland_round", new GarlandRoundBlock());
+//    public static final Block SNOWY_GARLAND = registerBlock("snowy_garland", new Block(FabricBlockSettings.create()));
+//    public static final Block SNOWY_GARLAND_ROUND = registerBlock("snowy_garland_round", new GarlandRoundBlock());
+//    public static final Block GARLAND_LIGHTLESS = registerBlock("garland_lightless", new Block(FabricBlockSettings.create()));
+//    public static final Block GARLAND_ROUND_LIGHTLESS = registerBlock("garland_round_lightless", new GarlandRoundBlock());
+//    public static final Block SNOWY_GARLAND_LIGHTLESS = registerBlock("snowy_garland_lightless", new Block(FabricBlockSettings.create()));
+//    public static final Block SNOWY_GARLAND_ROUND_LIGHTLESS = registerBlock("snowy_garland_round_lightless", new GarlandRoundBlock());
 
     // SNOWMAN BLOCK
-    public static final Block SNOWMAN_BLOCK_WHITE = registerBlock("snowman_block_white", new TwoBlocksFacing());
-    public static final Block SNOWMAN_BLOCK_ORANGE = registerBlock("snowman_block_orange", new TwoBlocksFacing());
-    public static final Block SNOWMAN_BLOCK_MAGENTA = registerBlock("snowman_block_magenta", new TwoBlocksFacing());
-    public static final Block SNOWMAN_BLOCK_LIGHT_BLUE = registerBlock("snowman_block_light_blue", new TwoBlocksFacing());
-    public static final Block SNOWMAN_BLOCK_YELLOW = registerBlock("snowman_block_yellow", new TwoBlocksFacing());
-    public static final Block SNOWMAN_BLOCK_LIME = registerBlock("snowman_block_lime", new TwoBlocksFacing());
-    public static final Block SNOWMAN_BLOCK_PINK = registerBlock("snowman_block_pink", new TwoBlocksFacing());
-    public static final Block SNOWMAN_BLOCK_GRAY = registerBlock("snowman_block_gray", new TwoBlocksFacing());
-    public static final Block SNOWMAN_BLOCK_LIGHT_GRAY = registerBlock("snowman_block_light_gray", new TwoBlocksFacing());
-    public static final Block SNOWMAN_BLOCK_CYAN = registerBlock("snowman_block_cyan", new TwoBlocksFacing());
-    public static final Block SNOWMAN_BLOCK_PURPLE = registerBlock("snowman_block_purple", new TwoBlocksFacing());
-    public static final Block SNOWMAN_BLOCK_BLUE = registerBlock("snowman_block_blue", new TwoBlocksFacing());
-    public static final Block SNOWMAN_BLOCK_BROWN = registerBlock("snowman_block_brown", new TwoBlocksFacing());
-    public static final Block SNOWMAN_BLOCK_GREEN = registerBlock("snowman_block_green", new TwoBlocksFacing());
-    public static final Block SNOWMAN_BLOCK_RED = registerBlock("snowman_block_red", new TwoBlocksFacing());
-    public static final Block SNOWMAN_BLOCK_BLACK = registerBlock("snowman_block_black", new TwoBlocksFacing());
+//    public static final Block SNOWMAN_BLOCK_WHITE = registerBlock("snowman_block_white", new TwoBlocksFacing());
+//    public static final Block SNOWMAN_BLOCK_ORANGE = registerBlock("snowman_block_orange", new TwoBlocksFacing());
+//    public static final Block SNOWMAN_BLOCK_MAGENTA = registerBlock("snowman_block_magenta", new TwoBlocksFacing());
+//    public static final Block SNOWMAN_BLOCK_LIGHT_BLUE = registerBlock("snowman_block_light_blue", new TwoBlocksFacing());
+//    public static final Block SNOWMAN_BLOCK_YELLOW = registerBlock("snowman_block_yellow", new TwoBlocksFacing());
+//    public static final Block SNOWMAN_BLOCK_LIME = registerBlock("snowman_block_lime", new TwoBlocksFacing());
+//    public static final Block SNOWMAN_BLOCK_PINK = registerBlock("snowman_block_pink", new TwoBlocksFacing());
+//    public static final Block SNOWMAN_BLOCK_GRAY = registerBlock("snowman_block_gray", new TwoBlocksFacing());
+//    public static final Block SNOWMAN_BLOCK_LIGHT_GRAY = registerBlock("snowman_block_light_gray", new TwoBlocksFacing());
+//    public static final Block SNOWMAN_BLOCK_CYAN = registerBlock("snowman_block_cyan", new TwoBlocksFacing());
+//    public static final Block SNOWMAN_BLOCK_PURPLE = registerBlock("snowman_block_purple", new TwoBlocksFacing());
+//    public static final Block SNOWMAN_BLOCK_BLUE = registerBlock("snowman_block_blue", new TwoBlocksFacing());
+//    public static final Block SNOWMAN_BLOCK_BROWN = registerBlock("snowman_block_brown", new TwoBlocksFacing());
+//    public static final Block SNOWMAN_BLOCK_GREEN = registerBlock("snowman_block_green", new TwoBlocksFacing());
+//    public static final Block SNOWMAN_BLOCK_RED = registerBlock("snowman_block_red", new TwoBlocksFacing());
+//    public static final Block SNOWMAN_BLOCK_BLACK = registerBlock("snowman_block_black", new TwoBlocksFacing());
 
     // LITTLE SNOWMAN
     public static final Block LITTLE_SNOWMAN_WHITE = registerBlock("little_snowman_white", new LittleSnowmanBlock());
@@ -248,8 +248,8 @@ public class ModBlocks {
     public static final Block WIRE = registerBlock("wire", new Block(FabricBlockSettings.create()));
     public static final Block CANDY_CANES_BLOCK = registerBlock("candy_canes_block", new Block(FabricBlockSettings.create()));
     public static final Block CANDY_CANES_TALL = registerBlock("candy_canes_tall", new Block(FabricBlockSettings.create()));
-    public static final Block CHRISTMAS_TREE = registerBlock("christmas_tree", new ChristmasTreeBlock());
-    public static final Block SNOWY_CHRISTMAS_TREE = registerBlock("snowy_christmas_tree", new ChristmasTreeBlock());
+//    public static final Block CHRISTMAS_TREE = registerBlock("christmas_tree", new ChristmasTreeBlock());
+//    public static final Block SNOWY_CHRISTMAS_TREE = registerBlock("snowy_christmas_tree", new ChristmasTreeBlock());
     public static final Block LITTLE_CHRISTMAS_TREE = registerBlock("little_christmas_tree", new Block(FabricBlockSettings.create()));
     public static final Block LITTLE_SNOWY_CHRISTMAS_TREE = registerBlock("little_snowy_christmas_tree", new Block(FabricBlockSettings.create()));
     public static final Block SANTA_CLAUS_BLOCK = registerBlock("santa_claus_block", new SantaClausBlock());

@@ -19,7 +19,7 @@
         "north": "false",
         "south": "false",
         "west": "false",
-		"up": "false"
+        "up": "false"
       }
     },
     {
@@ -41,7 +41,7 @@
         "north": "false",
         "south": "false",
         "west": "false",
-		"up": "false"
+        "up": "false"
       }
     },
     {
@@ -61,7 +61,7 @@
         "north": "false",
         "south": "false",
         "west": "false",
-		"up": "false"
+        "up": "false"
       }
     },
     {
@@ -83,7 +83,7 @@
         "north": "false",
         "south": "false",
         "west": "false",
-		"up": "false"
+        "up": "false"
       }
     }
   ]
