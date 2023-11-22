@@ -4,6 +4,9 @@ import de.joshi.ChristmasCraft;
 import de.joshi.block.custom.*;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.LeavesBlock;
+import net.minecraft.block.RedstoneWireBlock;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -184,21 +187,21 @@ public class ModBlocks {
     public static final Block CHRISTMAS_PRESENT_SHORT_BLACK = registerBlock("christmas_present_short_black", new ChristmasPresentsShortBlock());
 
     // CHRISTMAS PRESENT TALL
-    public static final Block CHRISTMAS_PRESENT_TALL_WHITE = registerBlock("christmas_present_tall_white", new ChristmasPresentsTallBlock());
-    public static final Block CHRISTMAS_PRESENT_TALL_ORANGE = registerBlock("christmas_present_tall_orange", new ChristmasPresentsTallBlock());
-    public static final Block CHRISTMAS_PRESENT_TALL_MAGENTA = registerBlock("christmas_present_tall_magenta", new ChristmasPresentsTallBlock());
-    public static final Block CHRISTMAS_PRESENT_TALL_LIGHT_BLUE = registerBlock("christmas_present_tall_light_blue", new ChristmasPresentsTallBlock());
-    public static final Block CHRISTMAS_PRESENT_TALL_YELLOW = registerBlock("christmas_present_tall_yellow", new ChristmasPresentsTallBlock());
-    public static final Block CHRISTMAS_PRESENT_TALL_LIME = registerBlock("christmas_present_tall_lime", new ChristmasPresentsTallBlock());
-    public static final Block CHRISTMAS_PRESENT_TALL_PINK = registerBlock("christmas_present_tall_pink", new ChristmasPresentsTallBlock());
-    public static final Block CHRISTMAS_PRESENT_TALL_GRAY = registerBlock("christmas_present_tall_gray", new ChristmasPresentsTallBlock());
-    public static final Block CHRISTMAS_PRESENT_TALL_LIGHT_GRAY = registerBlock("christmas_present_tall_light_gray", new ChristmasPresentsTallBlock());
-    public static final Block CHRISTMAS_PRESENT_TALL_CYAN = registerBlock("christmas_present_tall_cyan", new ChristmasPresentsTallBlock());
-    public static final Block CHRISTMAS_PRESENT_TALL_PURPLE = registerBlock("christmas_present_tall_purple", new ChristmasPresentsTallBlock());
-    public static final Block CHRISTMAS_PRESENT_TALL_BLUE = registerBlock("christmas_present_tall_blue", new ChristmasPresentsTallBlock());
-    public static final Block CHRISTMAS_PRESENT_TALL_BROWN = registerBlock("christmas_present_tall_brown", new ChristmasPresentsTallBlock());
-    public static final Block CHRISTMAS_PRESENT_TALL_GREEN = registerBlock("christmas_present_tall_red", new ChristmasPresentsTallBlock());
-    public static final Block CHRISTMAS_PRESENT_TALL_BLACK = registerBlock("christmas_present_tall_black", new ChristmasPresentsTallBlock());
+//    public static final Block CHRISTMAS_PRESENT_TALL_WHITE = registerBlock("christmas_present_tall_white", new ChristmasPresentsTallBlock());
+//    public static final Block CHRISTMAS_PRESENT_TALL_ORANGE = registerBlock("christmas_present_tall_orange", new ChristmasPresentsTallBlock());
+//    public static final Block CHRISTMAS_PRESENT_TALL_MAGENTA = registerBlock("christmas_present_tall_magenta", new ChristmasPresentsTallBlock());
+//    public static final Block CHRISTMAS_PRESENT_TALL_LIGHT_BLUE = registerBlock("christmas_present_tall_light_blue", new ChristmasPresentsTallBlock());
+//    public static final Block CHRISTMAS_PRESENT_TALL_YELLOW = registerBlock("christmas_present_tall_yellow", new ChristmasPresentsTallBlock());
+//    public static final Block CHRISTMAS_PRESENT_TALL_LIME = registerBlock("christmas_present_tall_lime", new ChristmasPresentsTallBlock());
+//    public static final Block CHRISTMAS_PRESENT_TALL_PINK = registerBlock("christmas_present_tall_pink", new ChristmasPresentsTallBlock());
+//    public static final Block CHRISTMAS_PRESENT_TALL_GRAY = registerBlock("christmas_present_tall_gray", new ChristmasPresentsTallBlock());
+//    public static final Block CHRISTMAS_PRESENT_TALL_LIGHT_GRAY = registerBlock("christmas_present_tall_light_gray", new ChristmasPresentsTallBlock());
+//    public static final Block CHRISTMAS_PRESENT_TALL_CYAN = registerBlock("christmas_present_tall_cyan", new ChristmasPresentsTallBlock());
+//    public static final Block CHRISTMAS_PRESENT_TALL_PURPLE = registerBlock("christmas_present_tall_purple", new ChristmasPresentsTallBlock());
+//    public static final Block CHRISTMAS_PRESENT_TALL_BLUE = registerBlock("christmas_present_tall_blue", new ChristmasPresentsTallBlock());
+//    public static final Block CHRISTMAS_PRESENT_TALL_BROWN = registerBlock("christmas_present_tall_brown", new ChristmasPresentsTallBlock());
+//    public static final Block CHRISTMAS_PRESENT_TALL_GREEN = registerBlock("christmas_present_tall_red", new ChristmasPresentsTallBlock());
+//    public static final Block CHRISTMAS_PRESENT_TALL_BLACK = registerBlock("christmas_present_tall_black", new ChristmasPresentsTallBlock());
 
     // EPIPHANY STOCKING
     public static final Block EPIPHANY_STOCKING_WHITE = registerBlock("epiphany_stocking_white", new EpiphanyStockingBlock());
@@ -239,13 +242,13 @@ public class ModBlocks {
     // CUSTOM BLOCKS
     public static final Block SUGAR_BLOCK = registerBlock("sugar_block", new Block(FabricBlockSettings.create()));
     public static final Block GINGERBREAD_BLOCK = registerBlock("gingerbread_block", new Block(FabricBlockSettings.create()));
-    public static final Block CHRISTMAS_LEAVES = registerBlock("christmas_leaves", new Block(FabricBlockSettings.create().sounds(BlockSoundGroup.AZALEA_LEAVES)));
-    public static final Block SNOWY_CHRISTMAS_LEAVES = registerBlock("snowy_christmas_leaves", new Block(FabricBlockSettings.create().sounds(BlockSoundGroup.AZALEA_LEAVES)));
-    public static final Block SNOWY_LEAVES = registerBlock("snowy_leaves", new Block(FabricBlockSettings.create().sounds(BlockSoundGroup.AZALEA_LEAVES)));
-    public static final Block CHRISTMAS_TREE_TOPPER = registerBlock("christmas_tree_topper", new Block(FabricBlockSettings.create()));
-    public static final Block CHRISTMAS_TREE_STAR_TOPPER_ONE = registerBlock("christmas_tree_star_topper_one", new Block(FabricBlockSettings.create()));
-    public static final Block CHRISTMAS_TREE_STAR_TOPPER_TWO = registerBlock("christmas_tree_star_topper_two", new Block(FabricBlockSettings.create()));
-    public static final Block WIRE = registerBlock("wire", new Block(FabricBlockSettings.create()));
+    public static final Block CHRISTMAS_LEAVES = registerBlock("christmas_leaves", new LeavesBlock(FabricBlockSettings.copyOf(Blocks.BIRCH_LEAVES).lightLevel(5)));
+    public static final Block SNOWY_CHRISTMAS_LEAVES = registerBlock("snowy_christmas_leaves", new LeavesBlock(FabricBlockSettings.copyOf(Blocks.BIRCH_LEAVES).lightLevel(5)));
+    public static final Block SNOWY_LEAVES = registerBlock("snowy_leaves", new LeavesBlock(FabricBlockSettings.copyOf(Blocks.BIRCH_LEAVES).lightLevel(5)));
+    public static final Block CHRISTMAS_TREE_TOPPER = registerBlock("christmas_tree_topper", new ChristmasTreeTopperBlock());
+    public static final Block CHRISTMAS_TREE_STAR_TOPPER_ONE = registerBlock("christmas_tree_star_topper_one", new ChristmasBallBlock());
+    public static final Block CHRISTMAS_TREE_STAR_TOPPER_TWO = registerBlock("christmas_tree_star_topper_two", new ChristmasBallBlock());
+//    public static final Block WIRE = registerBlock("wire", new RedstoneWireBlock(FabricBlockSettings.copyOf(Blocks.REDSTONE_WIRE)));
     public static final Block CANDY_CANES_BLOCK = registerBlock("candy_canes_block", new CandyCanesBlock());
 //    public static final Block CANDY_CANES_TALL = registerBlock("candy_canes_tall", new Block(FabricBlockSettings.create()));
 //    public static final Block CHRISTMAS_TREE = registerBlock("christmas_tree", new ChristmasTreeBlock());
@@ -253,7 +256,7 @@ public class ModBlocks {
     public static final Block LITTLE_CHRISTMAS_TREE = registerBlock("little_christmas_tree", new LittleSnowmanBlock());
     public static final Block LITTLE_SNOWY_CHRISTMAS_TREE = registerBlock("little_snowy_christmas_tree", new LittleSnowmanBlock());
     public static final Block SANTA_CLAUS_BLOCK = registerBlock("santa_claus_block", new SantaClausBlock());
-    public static final Block CHRISTMAS_BELLS = registerBlock("christmas_bells", new Block(FabricBlockSettings.create()));
+    public static final Block CHRISTMAS_BELLS = registerBlock("christmas_bells", new ChristmasBellsBlock());
 //    public static final Block TALL_SANTA_CLAUS_BLOCK = registerBlock("tall_santa_claus_block", new Block(FabricBlockSettings.create()));
 
     private static Block registerBlock(String name, Block block) {

@@ -1,6 +1,6 @@
 package de.joshi.block.custom;
 
-public class CandyCanesBlock extends LittleSnowmanBlock {
+public class CandyCanesBlock extends ChristmasBallBlock {
     public CandyCanesBlock() {
         super();
     }
