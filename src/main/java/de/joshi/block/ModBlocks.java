@@ -246,8 +246,8 @@ public class ModBlocks {
     public static final Block CHRISTMAS_TREE_STAR_TOPPER_ONE = registerBlock("christmas_tree_star_topper_one", new Block(FabricBlockSettings.create()));
     public static final Block CHRISTMAS_TREE_STAR_TOPPER_TWO = registerBlock("christmas_tree_star_topper_two", new Block(FabricBlockSettings.create()));
     public static final Block WIRE = registerBlock("wire", new Block(FabricBlockSettings.create()));
-    public static final Block CANDY_CANES_BLOCK = registerBlock("candy_canes_block", new Block(FabricBlockSettings.create()));
-    public static final Block CANDY_CANES_TALL = registerBlock("candy_canes_tall", new Block(FabricBlockSettings.create()));
+    public static final Block CANDY_CANES_BLOCK = registerBlock("candy_canes_block", new CandyCanesBlock());
+//    public static final Block CANDY_CANES_TALL = registerBlock("candy_canes_tall", new Block(FabricBlockSettings.create()));
 //    public static final Block CHRISTMAS_TREE = registerBlock("christmas_tree", new ChristmasTreeBlock());
 //    public static final Block SNOWY_CHRISTMAS_TREE = registerBlock("snowy_christmas_tree", new ChristmasTreeBlock());
     public static final Block LITTLE_CHRISTMAS_TREE = registerBlock("little_christmas_tree", new LittleSnowmanBlock());
